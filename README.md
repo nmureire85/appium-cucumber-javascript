@@ -53,7 +53,7 @@ Allure was used as the reporting tool of choice.
 
 - It was observed that the ability to drag/scroll horizontal from left edge to see side menu proved a challenge to solve (Both ios and android).
 - Android tests are flaky on settings.feature. This works fine when run on its own @settings.
-- I noted some discrepencies with cahi expect which was impactimg run of tests so i resorted to just webriverio expect
+- I noted some discrepencies with chai expect which was impactimg run of tests so i resorted to just webriverio expect
 - Appium logs show some elements located but the spec report indicates the steps are passing.
 
 *N.B*: Overall the framework has been designed to follow page object model to allow code reuse. It also incorporates cucumber to allow non-tech users to undertstand what is being tested.
