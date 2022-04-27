@@ -4,8 +4,9 @@ This project focuses on testing both android and ios apps using appium webdriver
 # Requirements:
 - Android studio(bumblebee|2021.11). Previous should be fine.
 - Xcode 13.0.0+
-- Appium Inspector
-- Appium service installation (1.18+) or Appium Desktop
+- Appium Inspector(accessed via Appium Desktop)
+- Appium service installation or Appium Desktop (1.18+)
+> Faced issues with appium service. Resorted to Appium desktop to run tests on both platforms
 - Node.js (12.22.12)
 - Carthage 0.38 (iOS)
 - Visual Studio Code as IDE (Used in this project) 
@@ -13,6 +14,7 @@ This project focuses on testing both android and ios apps using appium webdriver
 - Emulator and simulator setup
 
 # Getting Started:
+Git clone project or download and open with VSCode IDE or any approriate IDE
 
 To run Android tests via terminal from *webriverio-appium-cucumber* directory:  
 
