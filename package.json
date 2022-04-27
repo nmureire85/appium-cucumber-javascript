@@ -1,0 +1,25 @@
+{
+  "name": "webriverio-appium-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android:test": "PLATFORM=Android ./node_modules/.bin/wdio wdio.conf.js",
+    "ios:test": "PLATFORM=iOS ./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.19.5",
+    "@wdio/appium-service": "^7.19.5",
+    "@wdio/cli": "^7.19.5",
+    "@wdio/cucumber-framework": "^7.19.5",
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.5",
+    "chai": "^4.3.6"
+  },
+  "dependencies": {
+    "appium": "^1.18.3"
+  }
+}

@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651071458764' stop='1651071461039'>
+    <name>Dashboard screen can be loaded by accessing the Dashboard tab: Verify user is able to load the Dashboard screen</name>
+    <title>Dashboard screen can be loaded by accessing the Dashboard tab: Verify user is able to load the Dashboard screen</title>
+    <test-cases>
+        <test-case start='1651071458765' status='passed' stop='1651071458776'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_28 10.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071458778' status='passed' stop='1651071460541'>
+            <name>Given User is on the instructions screen</name>
+            <title>Given User is on the instructions screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_28 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1651071458797' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c6b98a32-7ab9-43ae-b8d5-7f8dbc28b71f-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071458827' status='passed' stop='1651071459287'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='92754d7a-5955-4d25-9b64-3813ed855d30-attachment.json' type='application/json' size='532'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1651071459298' status='passed' stop='1651071460538'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='636e1495-68d0-4190-a626-2e18a8735f6a-attachment.json' type='application/json' size='68'/>
+                                <attachment title='Screenshot' source='54507a2e-b202-465a-b8a7-3266c75d1c61-attachment.png' type='image/png' size='37346'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071460541' status='passed' stop='1651071460784'>
+            <name>When User navigates to the dashboard screen</name>
+            <title>When User navigates to the dashboard screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_28 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1651071460546' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c3957575-4058-43c6-bbcd-7855eddb1128-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071460552' status='undefined'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1651071460712' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='5bf6f8f5-0187-4324-b479-20a8da1845d2-attachment.json' type='application/json' size='68'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071460785' status='passed' stop='1651071461037'>
+            <name>Then dashboard screen is loaded successfully</name>
+            <title>Then dashboard screen is loaded successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_28 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1651071460786' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='81d64169-03d6-4fc9-95f2-0c6daf8e6630-attachment.json' type='application/json' size='86'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071460788' status='undefined'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1651071460959' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='75ec31dc-1b3a-4c64-b9ae-db1efdc703a5-attachment.json' type='application/json' size='68'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071461038' status='passed' stop='1651071461039'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel_2_API_28 10.0-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,242 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651071942276' stop='1651071946816'>
+    <name>User menu interaction: Verify user can drag to see user menu screen and click button to see an alert</name>
+    <title>User menu interaction: Verify user can drag to see user menu screen and click button to see an alert</title>
+    <test-cases>
+        <test-case start='1651071942277' status='passed' stop='1651071942278'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071942278' status='passed' stop='1651071942707'>
+            <name>Given User is on the instructions screen</name>
+            <title>Given User is on the instructions screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps>
+                <step start='1651071942282' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='156ef701-0794-47e8-87e3-df8d3c7b2bd8-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071942288' status='passed' stop='1651071942506'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='aa11bf50-e5bf-49be-a107-91dec2bd766f-attachment.json' type='application/json' size='136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1651071942521' status='passed' stop='1651071942702'>
+                            <name>GET /session/:sessionId/element/04000000-0000-0000-36F5-000000000000/displayed</name>
+                            <title>GET /session/:sessionId/element/04000000-0000-0000-36F5-000000000000/displayed</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='310667fd-e816-4c54-86e6-536c4f3ce32b-attachment.png' type='image/png' size='925912'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071942707' status='passed' stop='1651071943272'>
+            <name>When User slides menu by dragging from left edge of screen</name>
+            <title>When User slides menu by dragging from left edge of screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps>
+                <step start='1651071942708' status='passed' stop='1651071943100'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='4525e5b3-474f-4847-8774-62be86378715-attachment.json' type='application/json' size='263'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071942710' status='passed' stop='1651071942858'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='1720d051-e213-43cb-ae7b-1abb445fdce1-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4027fc56-968f-4ecf-a491-c6a5740e81f6-attachment.png' type='image/png' size='925912'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651071943272' status='passed' stop='1651071943647'>
+            <name>When menu screen is displayed</name>
+            <title>When menu screen is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps>
+                <step start='1651071943273' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d5ed72ca-0975-42c9-8340-aab3aac87ed1-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071943275' status='passed' stop='1651071943481'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='444b1646-e9b2-4803-8a79-0c7b169a9506-attachment.json' type='application/json' size='136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1651071943485' status='passed' stop='1651071943645'>
+                            <name>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</name>
+                            <title>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='86f9bb0b-6af3-4005-87e9-01044be34a80-attachment.png' type='image/png' size='925912'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071943647' status='passed' stop='1651071944078'>
+            <name>When User interacts with button</name>
+            <title>When User interacts with button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps>
+                <step start='1651071943648' status='passed' stop='1651071943912'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7aa58397-3e51-4194-b3a5-1244536bdf75-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='01324d3b-71a3-4d34-8245-bd89d237424e-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071943650' status='passed' stop='1651071943740'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1651071943915' status='undefined'>
+                    <name>POST /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/click</name>
+                    <title>POST /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1651071943989' status='passed' stop='1651071944075'>
+                            <name>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</name>
+                            <title>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='7ac8ed57-b183-467d-9c4b-89f201d50082-attachment.png' type='image/png' size='925912'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071944078' status='passed' stop='1651071946815'>
+            <name>Then an alert is displayed to user</name>
+            <title>Then an alert is displayed to user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps>
+                <step start='1651071944078' status='passed' stop='1651071946562'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='de8c6a94-7291-4ae7-8239-a700b3fd5074-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651071944080' status='passed' stop='1651071946474'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1651071946564' status='passed' stop='1651071946656'>
+                    <name>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</name>
+                    <title>GET /session/:sessionId/element/1D000000-0000-0000-36F5-000000000000/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='3689b4a5-c1eb-4ad1-b0d9-8bdf438de77e-attachment.json' type='application/json' size='488'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651071946659' status='passed' stop='1651071946812'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='29517636-503b-43c6-acf1-a47853a1aeb3-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Screenshot' source='92edd9b2-655d-474a-961e-2c5d79dd1ebb-attachment.png' type='image/png' size='925912'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651071946815' status='passed' stop='1651071946815'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 11 Pro-14.5'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
