@@ -5,7 +5,7 @@ This project focuses on testing both android and ios apps using appium webdriver
 - Android studio(bumblebee|2021.11). Previous should be fine.
 - Xcode 13.0.0+
 - Appium Inspector
-- Appium installation (1.18+)
+- Appium service installation (1.18+) or Appium Desktop
 - Node.js (12.22.12)
 - Carthage 0.38 (iOS)
 - Visual Studio Code as IDE (Used in this project) 
@@ -51,4 +51,9 @@ Allure was used as the reporting tool of choice.
 
 # Future improvements:
 
-It was observed that the ability to drag/scroll horizontal from left edge to see side menu proved a challenge to solve. This could be an issue with my setup config. Need further investigation into this 
+- It was observed that the ability to drag/scroll horizontal from left edge to see side menu proved a challenge to solve (Both ios and android).
+- Android tests are flaky on settings.feature. This works fine when run on its own @settings.
+- I noted some discrepencies with cahi expect which was impactimg run of tests so i resorted to just webriverio expect
+- Appium logs show some elements located but the spec report indicates the steps are passing.
+
+*N.B*: Overall the framework has been designed to follow page object model to allow code reuse. It also incorporates cucumber to allow non-tech users to undertstand what is being tested.
